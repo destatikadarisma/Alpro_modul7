@@ -1,0 +1,10 @@
+package main
+import "fmt"
+func main(){
+	var n, i,j int
+	fmt.Scan(&n)
+	for i = 1; i <= n; i++{
+		j = i*i
+		fmt.Println("hasil pangkat", j)
+	}
+}
